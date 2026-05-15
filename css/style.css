@@ -1,5 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
 .bubble {
-    border: 3px black solid;
+    border: 2px black solid;
     border-radius: 20px;
     padding: 0px 6px;
+}
+a.nav {
+    text-decoration: none;
 }
