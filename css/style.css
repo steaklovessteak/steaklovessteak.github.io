@@ -1,11 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #e8a4ef;
+    color: white;
 }
 .bubble {
-    border: 2px black solid;
+    border: 2px white solid;
     border-radius: 20px;
     padding: 0px 6px;
 }
 a.nav {
     text-decoration: none;
+    color: white;
+}
+header {
+    background-color: #7f3188;
+    
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;
+
+    padding: 10px 10px 10px 10px;
+
+    color: white;
 }
