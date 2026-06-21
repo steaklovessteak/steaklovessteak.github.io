@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e8a4ef;
+    background-color: #5b2ba3;
     color: white;
 }
 .bubble {
@@ -12,8 +12,11 @@ a.nav {
     text-decoration: none;
     color: white;
 }
+a,summary {
+    color: cyan;
+}
 header {
-    background-color: #7f3188;
+    background-color: #39005a;
     
     position: absolute;
     left: 0px;
@@ -24,4 +27,56 @@ header {
     padding: 10px 10px 10px 10px;
 
     color: white;
+}
+.container {
+    background-color: #39005a;
+    border-radius: 30px;
+    border: 5px, white, solid;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #ffa500;
+    width: 70%;
+}
+.innercontainer {
+    border-radius: 15px;
+    border: 2.5px, white, solid;
+    justify-self: center;
+    padding: 10px;
+    width: 70%;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+.iconcontainer {
+    background-color: white;
+    border: 5px, white, solid;
+    border-radius: 240px;
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+    width: 240px;
+    height: 240px;
+    box-shadow: 0px 0px 30px #ffa500;
+}
+.icon {
+    width: 200px;
+}
+.box-title {
+    font-size: 20px;
+    color: #ff00bf;
+}
+.note {
+    color: gray;
+    font-size: 10px;
+}
+div.social {
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.social {
+    height: 50px;
 }
