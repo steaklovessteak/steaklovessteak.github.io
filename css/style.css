@@ -1,7 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #5b2ba3;
+    background: linear-gradient(45deg,#250022,#23003a);
     color: white;
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .bubble {
     border: 2px white solid;
@@ -31,32 +36,41 @@ header {
 .container {
     background-color: #39005a;
     border-radius: 30px;
-    border: 5px, white, solid;
+    border: 5px, #4c0149, solid;
     justify-content: center;
     text-align: center;
-    justify-self: center;
     padding: 10px;
-    box-shadow: 0px 0px 20px #ffa500;
+    box-shadow: 0px 0px 20px #4c0149;
     width: 70%;
 }
 .innercontainer {
     border-radius: 15px;
     border: 2.5px, white, solid;
-    justify-self: center;
     padding: 10px;
     width: 70%;
     box-shadow: 0px 0px 10px #ffffff;
 }
+.autocontainer {
+    background-color: #39005a;
+    border-radius: 30px;
+    border: 5px, #4c0149, solid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #4c0149;
+    align-items: center;
+    justify-items: center;
+    display: inline-flex;
+}
 .iconcontainer {
-    background-color: white;
-    border: 5px, white, solid;
+    background-color: #4c0149;
+    border: 5px, #4c0149, solid;
     border-radius: 240px;
     justify-content: center;
-    justify-self: center;
     display: flex;
     width: 240px;
     height: 240px;
-    box-shadow: 0px 0px 30px #ffa500;
+    box-shadow: 0px 0px 30px #4c0149;
 }
 .icon {
     width: 200px;
