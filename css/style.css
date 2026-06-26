@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #250022;
     background: linear-gradient(45deg,#250022,#23003a);
     color: white;
+    margin: 0px;
 }
 .main {
     display: flex;
@@ -22,16 +24,14 @@ a,summary {
 }
 header {
     background-color: #39005a;
-    
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    margin-top: 0px;
-
+    height: 25px;
+    line-height: 25px;
     padding: 10px 10px 10px 10px;
-
     color: white;
+}
+footer {
+    padding: 10px;
+    background-color: rgb(72, 0, 121);
 }
 .container {
     background-color: #39005a;
