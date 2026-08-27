@@ -3,7 +3,6 @@ body {
     background-color: #250022;
     background: linear-gradient(45deg,#250022,#23003a);
     color: #c3c3c3;
-    margin: 0px;
 }
 .main {
     display: flex;
@@ -20,7 +19,7 @@ a.nav {
     color: #c3c3c3;
 }
 a,summary {
-    color: #00b8b8;
+    color: #00cccc;
 }
 header {
     background-color: #39005a;
@@ -34,13 +33,13 @@ footer {
     background-color: rgb(72, 0, 121);
 }
 .container {
-    background-color: #39005a;
+    background-color: #26003b;
     border-radius: 30px;
-    border: 5px, #4c0149, solid;
+    border: 5px, #330031, solid;
     justify-content: center;
     text-align: center;
     padding: 10px;
-    box-shadow: 0px 0px 20px #4c0149;
+    box-shadow: 0px 0px 20px #330031;
     width: 70%;
 }
 .innercontainer {
@@ -51,33 +50,33 @@ footer {
     box-shadow: 0px 0px 10px #ffffff;
 }
 .autocontainer {
-    background-color: #39005a;
+    background-color: #26003b;
     border-radius: 30px;
-    border: 5px, #4c0149, solid;
+    border: 5px, #330031, solid;
     justify-content: center;
     text-align: center;
     padding: 10px;
-    box-shadow: 0px 0px 20px #4c0149;
+    box-shadow: 0px 0px 20px #330031;
     align-items: center;
     justify-items: center;
     display: inline-flex;
 }
 .iconcontainer {
-    background-color: #4c0149;
-    border: 5px, #4c0149, solid;
+    background-color: #330031;
+    border: 5px, #330031, solid;
     border-radius: 240px;
     justify-content: center;
     display: flex;
     width: 240px;
     height: 240px;
-    box-shadow: 0px 0px 30px #4c0149;
+    box-shadow: 0px 0px 30px #330031;
 }
 .icon {
     width: 200px;
 }
 .box-title {
     font-size: 20px;
-    color: #ff00bf;
+    color: #a10079;
 }
 .note {
     color: gray;
