@@ -23,10 +23,26 @@ a,summary {
 }
 header {
     background-color: #39005a;
-    height: 25px;
-    line-height: 25px;
-    padding: 10px 10px 10px 10px;
-    color: white;
+}
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+header ul li {
+    float: left;
+}
+header ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+header ul li a:hover:not(#active) {
+    background-color: #2d0047;
+}
+header ul li a#active {
+    background-color: #51007f;
 }
 footer {
     padding: 10px;
