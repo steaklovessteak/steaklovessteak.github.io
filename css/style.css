@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #250022;
     background: linear-gradient(45deg,#250022,#23003a);
-    color: #c3c3c3;
+    color: #c3c3c3;   
 }
 .main {
     display: flex;
@@ -46,7 +46,11 @@ header ul li a#active {
 }
 footer {
     padding: 10px;
-    background-color: #480079;
+    background-color: #39005a;
+}
+.expander {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .container {
     background-color: #26003b;
